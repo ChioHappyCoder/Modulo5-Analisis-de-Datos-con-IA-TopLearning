@@ -19,7 +19,9 @@ python -m ipykernel install --user --name jupyter-colab-venv --display-name "Pyt
 jupyter notebook dashboard_presion_arterial.ipynb
 ```
 
-Al abrir el notebook, selecciona el kernel **"Python (jupyter-colab venv)"** (Kernel → Change kernel) y ejecuta todas las celdas (Kernel → Restart & Run All).
+Al abrir el notebook, selecciona el kernel **"Python (jupyter-colab venv)"** (Kernel → Change kernel, o el selector de kernel arriba a la derecha en VS Code) y ejecuta todas las celdas (Kernel → Restart & Run All).
+
+> ⚠️ Si ves `ModuleNotFoundError: No module named 'pandas'`, es porque el notebook está corriendo con otro kernel (el Python global, no el del venv). Cambia el kernel a **"Python (jupyter-colab venv)"** — la celda 1 del notebook también instala automáticamente cualquier dependencia faltante como respaldo.
 
 ## Ejecutar en Google Colab
 
