@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard de Presión Arterial</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Dashboard de Presión Arterial</h1>
+    <p class="subtitle">Monitoreo de presión sistólica por paciente</p>
+  </header>
+
+  <main class="container">
+
+    <section class="kpis" id="kpis" aria-label="Indicadores clave">
+      <div class="kpi-card">
+        <span class="kpi-label">Pacientes</span>
+        <span class="kpi-value" id="kpi-total">—</span>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-label">Presión promedio</span>
+        <span class="kpi-value" id="kpi-avg">—</span>
+      </div>
+      <div class="kpi-card kpi-danger">
+        <span class="kpi-label">Muy Alta / Crisis Hipertensiva</span>
+        <span class="kpi-value" id="kpi-high">—</span>
+      </div>
+      <div class="kpi-card kpi-safe">
+        <span class="kpi-label">Presión Normal</span>
+        <span class="kpi-value" id="kpi-low">—</span>
+      </div>
+    </section>
+
+    <section class="filters" aria-label="Filtros">
+      <label for="filter-clasificacion">Clasificación:</label>
+      <select id="filter-clasificacion">
+        <option value="todas">Todas</option>
+      </select>
+
+      <label for="filter-genero">Género:</label>
+      <select id="filter-genero">
+        <option value="todos">Todos</option>
+        <option value="M">Mujer</option>
+        <option value="H">Hombre</option>
+      </select>
+    </section>
+
+    <section class="charts-grid">
+      <div class="chart-card">
+        <h2>Distribución por clasificación de presión</h2>
+        <div class="chart-wrap">
+          <canvas id="chart-distribucion"></canvas>
+        </div>
+        <ul class="legend" id="legend-distribucion"></ul>
+      </div>
+
+      <div class="chart-card">
+        <h2>Edad vs. Presión sistólica</h2>
+        <div class="chart-wrap">
+          <canvas id="chart-scatter"></canvas>
+        </div>
+        <ul class="legend" id="legend-scatter"></ul>
+      </div>
+
+      <div class="chart-card wide">
+        <h2>Presión sistólica por paciente</h2>
+        <div class="chart-wrap">
+          <canvas id="chart-barras"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section class="table-card">
+      <h2>Detalle de pacientes</h2>
+      <div class="table-scroll">
+        <table id="tabla-pacientes">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Edad</th>
+              <th>Género</th>
+              <th>Altura (m)</th>
+              <th>Peso (kg)</th>
+              <th>Presión sistólica</th>
+              <th>Clasificación</th>
+            </tr>
+          </thead>
+          <tbody id="tabla-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Dataset: presión sistólica por paciente · Colores: rojo = hipertensión muy alta / crisis · azul = presión normal (baja)</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
