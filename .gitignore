@@ -26,3 +26,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Python / Jupyter
+/jupyter-colab/venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

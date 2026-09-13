@@ -36,6 +36,10 @@ dashboard/
 └── data.js      # Dataset embebido como arreglo JS
 ```
 
+## 📓 Notebook (Jupyter / Google Colab)
+
+La misma vista está disponible como notebook interactivo en [`jupyter-colab/`](jupyter-colab/), construido con **pandas + Plotly + ipywidgets**, ejecutable en un venv local o directo en Google Colab. Ver [`jupyter-colab/README.md`](jupyter-colab/README.md) para instrucciones.
+
 ## 📁 Dataset
 
 [`dataset/dataset.csv`](dataset/dataset.csv) contiene los registros originales con las columnas:
