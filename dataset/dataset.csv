@@ -1,1 +1,60 @@
-ID Edad Presion_Sistolica Altura Peso Clasificacion_Presion Genero 1 39 144 1.65 76 Alta M 2 47 220 1.72 85 Crisis Hipertensiva H 3 45 138 1.63 65 Normal Alta M 4 47 145 1.73 82 Alta H 5 65 162 1.65 88 Muy Alta M 6 46 142 1.73 79 Alta H 7 67 170 1.69 90 Muy Alta H 8 42 124 1.62 60 Normal Alta M 9 67 158 1.79 84 Alta H 10 56 154 1.65 80 Alta M 11 64 162 1.66 86 Muy Alta M 12 56 150 1.8 78 Alta H 13 59 140 1.65 77 Alta M 14 34 110 1.77 68 Normal H 15 42 128 1.54 64 Normal Alta M 16 48 130 1.7 72 Normal Alta H 17 45 135 1.79 75 Normal Alta H 18 17 114 1.68 58 Normal H 19 20 116 1.7 62 Normal H 20 19 124 1.67 65 Normal Alta M 21 36 136 1.78 80 Normal Alta H 22 50 142 1.66 79 Alta M 23 39 120 1.64 63 Normal Alta M 24 21 120 1.73 66 Normal Alta H 25 44 160 1.66 85 Muy Alta M 26 53 158 1.7 82 Alta H 27 63 144 1.69 80 Alta M 28 29 130 1.75 70 Normal Alta H 29 25 125 1.72 68 Normal Alta H 30 69 175 1.67 92 Muy Alta M 34 56 124 1.65 75 Normal Alta M 35 69 179 1.68 91 Muy Alta M 36 46 142 1.72 75 Alta H 37 32 128 1.74 78 Normal Alta H 38 60 141 1.67 76 Alta M 39 25 142 1.73 75 Alta H 40 38 136 1.7 72 Normal Alta H 41 56 161 1.66 84 Muy Alta M 42 36 140 1.71 89 Alta H 43 40 150 1.68 80 Alta M 44 28 122 1.72 64 Normal Alta H 45 28 125 1.69 65 Normal Alta M 46 41 141 1.7 77 Alta H 47 70 181 1.67 95 Crisis Hipertensiva H 48 53 151 1.71 80 Alta H 49 57 157 1.68 82 Alta M 50 41 130 1.73 71 Normal Alta H 51 20 110 1.69 58 Normal M 52 39 150 1.77 78 Alta H 53 70 193 1.66 97 Crisis Hipertensiva H 54 19 111 1.68 59 Normal M 55 41 145 1.72 79 Alta H 56 61 146 1.67 81 Alta M 57 47 141 1.75 78 Alta H 58 55 150 1.69 80 Alta H 59 19 136 1.65 63 Normal Alta M 60 38 141 1.71 77 Alta H 61 50 132 1.54 70 Normal Alta M 62 29 110 1.68 62 Normal M
+ID	Edad	Presion_Sistolica	Altura	Peso	Clasificacion_Presion	Genero
+1	39	144	1.65	76	Alta	M
+2	47	220	1.72	85	Crisis Hipertensiva	H
+3	45	138	1.63	65	Normal Alta	M
+4	47	145	1.73	82	Alta	H
+5	65	162	1.65	88	Muy Alta	M
+6	46	142	1.73	79	Alta	H
+7	67	170	1.69	90	Muy Alta	H
+8	42	124	1.62	60	Normal Alta	M
+9	67	158	1.79	84	Alta	H
+10	56	154	1.65	80	Alta	M
+11	64	162	1.66	86	Muy Alta	M
+12	56	150	1.80	78	Alta	H
+13	59	140	1.65	77	Alta	M
+14	34	110	1.77	68	Normal	H
+15	42	128	1.54	64	Normal Alta	M
+16	48	130	1.70	72	Normal Alta	H
+17	45	135	1.79	75	Normal Alta	H
+18	17	114	1.68	58	Normal	H
+19	20	116	1.70	62	Normal	H
+20	19	124	1.67	65	Normal Alta	M
+21	36	136	1.78	80	Normal Alta	H
+22	50	142	1.66	79	Alta	M
+23	39	120	1.64	63	Normal Alta	M
+24	21	120	1.73	66	Normal Alta	H
+25	44	160	1.66	85	Muy Alta	M
+26	53	158	1.70	82	Alta	H
+27	63	144	1.69	80	Alta	M
+28	29	130	1.75	70	Normal Alta	H
+29	25	125	1.72	68	Normal Alta	H
+30	69	175	1.67	92	Muy Alta	M
+34	56	124	1.65	75	Normal Alta	M
+35	69	179	1.68	91	Muy Alta	M
+36	46	142	1.72	75	Alta	H
+37	32	128	1.74	78	Normal Alta	H
+38	60	141	1.67	76	Alta	M
+39	25	142	1.73	75	Alta	H
+40	38	136	1.70	72	Normal Alta	H
+41	56	161	1.66	84	Muy Alta	M
+42	36	140	1.71	89	Alta	H
+43	40	150	1.68	80	Alta	M
+44	28	122	1.72	64	Normal Alta	H
+45	28	125	1.69	65	Normal Alta	M
+46	41	141	1.70	77	Alta	H
+47	70	181	1.67	95	Crisis Hipertensiva	H
+48	53	151	1.71	80	Alta	H
+49	57	157	1.68	82	Alta	M
+50	41	130	1.73	71	Normal Alta	H
+51	20	110	1.69	58	Normal	M
+52	39	150	1.77	78	Alta	H
+53	70	193	1.66	97	Crisis Hipertensiva	H
+54	19	111	1.68	59	Normal	M
+55	41	145	1.72	79	Alta	H
+56	61	146	1.67	81	Alta	M
+57	47	141	1.75	78	Alta	H
+58	55	150	1.69	80	Alta	H
+59	19	136	1.65	63	Normal Alta	M
+60	38	141	1.71	77	Alta	H
+61	50	132	1.54	70	Normal Alta	M
+62	29	110	1.68	62	Normal	M
